@@ -14,11 +14,19 @@ class Calculator
 			int F1 = sc.nextInt();
 			System.out.print("Enter Second Number	:	");
 			int F2 = sc.nextInt();
+			int result;
 			switch(input)
 			{
 				case 1:
 				{
-					System.out.println("Result	:	"+(F1+F2));
+					result=F1+F2;
+					System.out.println("Result	:	"+result);
+					break;
+				}
+				case 2:
+				{
+					result=F1-F2;
+					System.out.println("Result	:	"+result);
 					break;
 				}
 				
